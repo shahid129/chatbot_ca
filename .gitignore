@@ -1,0 +1,40 @@
+# Ignore SQLite database file
+db.sqlite3
+db.sqlite3-shm
+db.sqlite3-wal
+
+# Ignore Python migration files
+*/migrations/*.py
+# include the __init__.py file
+!*/migrations/__init__.py
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Python virtual environment
+venv/
+
+# Ignore environment variable file
+.env
+
+# Visual Studio Code settings
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Operating system-specific files
+Thumbs.db
+.DS_Store
+
+# Ignore celery beat schedule file
+celerybeat-schedule.db
+celery.log
+
+# Igonre backup directory
+backup/
